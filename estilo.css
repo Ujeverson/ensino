@@ -135,9 +135,10 @@ section {
 .imglocais {
     width: 100%;
 }
-
-.social {
+#social{
     width: 2%;
+}
+.social {
     padding:2px 1px 0px 0px;
     color: white;
 }
