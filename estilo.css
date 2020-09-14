@@ -4,11 +4,12 @@ html, body {
     padding: 0;
     font-family: 'Noto Sans JP', sans-serif;
 }
-h3, h4{
+
+h3, h4, ul{
     text-transform: uppercase;  
 }
 p, h3, h4{
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 div{
@@ -18,10 +19,6 @@ div{
     font-family: 'Caveat', cursive;
 }
 
-a{
-    color:white;
-    text-decoration: none;
-}
 
 /* cabeçalho */
 header{
@@ -38,18 +35,19 @@ header{
     margin-left:5%;
     position: relative;
 }
-#menu{
+ul{
     float: right;
     margin-right: 5%;
     margin-top: 0px;
     list-style: none;
+    
 }
 li{
     float: left;
     padding: 23 15 23 15;
 }
 li:hover{
-    background-color: green;
+    background-color:rgb(255, 175, 1);
 
 }
 #divmenu{
@@ -68,7 +66,7 @@ li:hover{
 
 #titulo{
     color: rgb(0, 0, 0);
-    padding-top: 20%;
+    padding-top: 10%;
     font-size: 70px;
     line-height: 1.0;   
 }
@@ -82,19 +80,29 @@ li:hover{
     font-size:30px;
     line-height: 1.0;
 }
-#botao {
+/*classe dos links*/
+.acao {
     color:black;
     font-size:20px;
     border: 1px solid black;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     text-decoration: none;
-    text-shadow: 1px 1px black;
-    
+    text-shadow: 1px 1px black; 
 }
-.icone:hover {
-    width: 80px;
-    border-radius: 20px;
+a{
+    color:rgb(0, 116, 0);
+    text-decoration: none;
+}
+/*icones*/
+.icone {
+    width: 100px;
+    border-radius: 50px;
+    border: 0.5px solid white;
+}
+.coluna:hover>.icone {
+    background:rgb(248, 183, 3);
+    border-radius: 50px;
 }
 section {
     padding: 60px 0 20px 0;
@@ -107,13 +115,14 @@ section {
     background-color: #ebebeb;
 }
 .imglocais {
-    width: 90%;
-   
+    width: 100%;  
 }
+
+
 /* divisões das colunas */
 .coluna{
     float: left;
-    padding: 0 5%;
+    padding: 2% 5% 5% 5%;
     position: relative;
 }
 
@@ -141,7 +150,7 @@ section {
 footer{
     background-color: black;
     width: 100%;
-    padding: 30px 0 50px 0;
+    padding: 10px 0 10px 0;
     color: white;
     overflow: hidden;
 }
