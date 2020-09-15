@@ -135,10 +135,9 @@ section {
 .imglocais {
     width: 100%;
 }
-#social{
-    width: 2%;
-}
+
 .social {
+    width: 2%;
     padding:2px 1px 0px 0px;
     color: white;
 }
@@ -183,7 +182,7 @@ footer {
 
 /* Responsividade */
 @media all and (max-width: 1000px) {
-    #menu {
+    #divmenu {
         visibility: hidden;
     }
 
